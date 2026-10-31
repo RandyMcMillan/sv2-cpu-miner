@@ -1,3 +1,12 @@
+# Sv2 CPU miner configuration.
+#
+# Any field can be overridden with CPU_MINER__<FIELD>, for example:
+#   CPU_MINER__SERVER_ADDR=127.0.0.1:3333
+#   CPU_MINER__CPU_USAGE_PERCENT=50
+#
+# Run with:
+#   cargo run -- -c config.toml
+
 # address of the mining server
 server_addr = "127.0.0.1:3333"
 
